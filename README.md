@@ -29,4 +29,7 @@ Cycle sweep rearrangement plan:
  [-1, 0, 2, 3, 0, 1, 7, 11, 4, 14, 10, 9, 6, 1, 8, 13, 8]
  ```
 
-which contains the randomly generated instance, the optimal number of pick-n-swaps, the optimal end-effector travel distance, and the distance incurred by a cycle-sweeping algorithm. The plans from both algorithms are also given. 
+which contains the randomly generated instance, the optimal number of pick-n-swaps, the optimal end-effector travel distance, and the distance incurred by a cycle-sweeping algorithm. The plans from both algorithms are also given. To interpret the plan, "-1" indicates the end-effector at rest. The other numbers are cell labels. So, for the plan  [-1, 0, 1, 7, 8, 13, 8, 11, 4, 14, 10, 9, 6, 1, 2, 3, 0], the end-effector first travels to cell 0 (and picks up an item there), then cell 1, 7, 8, and so on. It is clear whether the operation at a given cell location is a pick, drop, or pick-n-swap. The same intepretation applies to other solvers. For the 2D solvers, the cells should be interpreted based on column-major ordering (see the paper). 
+
+
+
