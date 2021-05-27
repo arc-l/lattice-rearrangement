@@ -131,7 +131,7 @@ print(f"PTR instance (4 x 4): {pptr}")
 (greedy_distance, greedy_pns, greedy_plan) = ptr_solver_greedy(pltr, 4, 2, True)
 
 print (f"\n# of pick-n-swaps, opt:greedy: {opt_pns}:{greedy_pns}, optimal distance: {mst_distance}, cycle sweep distance: {greedy_distance}\n")
-print (f"Optimal rearrangement plan:\n {mst_plan} \n")
+print (f"MST cycle merge  rearrangement plan:\n {mst_plan} \n")
 print (f"Cycle sweep rearrangement plan:\n {greedy_plan} \n")
 
 
