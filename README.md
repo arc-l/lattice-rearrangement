@@ -1,6 +1,11 @@
 # Rearrangement on Lattices with Pick-n-Swaps: Optimality Structures and Efficient Algorithms
 
-## Jingjin Yu ([arxiv preprint](https://arxiv.org/abs/2105.05366), to appear in R:SS 2021)
+## Jingjin Yu ([arxiv preprint](https://arxiv.org/abs/2105.05366), R:SS 2021)
+
+This is the code that accompanies the above paper, where algorithms are developed for optimally solving rearrangement tasks where items are stored in lattices. In the most basic setups, LOR (**L**abeled **O**ne-dimensional **R**earrangement), the items are stored in a line at integer locations, out of order, and must be sorted, for example
+
+![alt text](https://github.com/rutgers-arc-lab/lattice-rearrangement/blob/main/media/lor.png?raw=true)
+
 
 ## Dependencies
 
