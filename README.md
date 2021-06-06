@@ -4,13 +4,12 @@
 
 This is the code that accompanies the above paper, where algorithms are developed for optimally solving rearrangement tasks where items are stored in lattices. In the most basic setups, LOR (**L**abeled **O**ne-dimensional **R**earrangement), the items are stored in a line at integer locations, out of order, and must be sorted, for example:
 
-![alt text](https://github.com/rutgers-arc-lab/lattice-rearrangement/blob/main/media/lor.png?raw=true)
+![lor](https://user-images.githubusercontent.com/23622170/120925830-6ec2d600-c6a8-11eb-922a-9e461c318255.png)
 
 
 Here, it is assumed that the robot end-effector initially rests at the leftmost end. It can pick up objects, move around, and make object swaps. The goal is to minimize the time it takes to complete the rearrangement task, assuming that each pick-n-swap operation takes a fixed amount of time and the robot end-effector travel time is proportional to end-effector travel distance (as measured by some distance metric). A solution, executed, looks like the following: 
 
-
-
+https://user-images.githubusercontent.com/23622170/120925809-518e0780-c6a8-11eb-9931-5f97f4c119ca.mp4
 
 ## Dependencies
 
